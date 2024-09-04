@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>RPGFlix</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          RPGflix
+        </h1>
+        <p class="page-subtitle">
+          Uma coletânea de RPGs para os nerds.
+        </p>
+        <input type="text" id="img-rpg" placeholder="Insira o link da imagem." required/>
+        <input type="text" id="link-rpg" placeholder="Insira o link do RPG." required>
+        <input type="text" id="nome-rpg" placeholder="Insira o nome do RPG." required><br>
+        <button type="submit" onclick="Adicionar()">Adicionar</button>
+        <button type="submit" onclick="Remover()">Remover</button>
+        <div id="imagem"></div>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+      </div>    
+</body>
+</html>
